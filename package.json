@@ -1,0 +1,35 @@
+{
+  "name": "optimised-eventlistener",
+  "version": "0.0.1",
+  "description": "Optimised event listener function using requestAnimationFrame",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepare": "./node_modules/.bin/babel index.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freaksauce/optimised-eventlistener.git"
+  },
+  "keywords": [
+    "window",
+    "document",
+    "resize",
+    "requestAnimationFrame",
+    "setTimeout",
+    "callback",
+    "callbacks",
+    "addEventListener",
+    "removeEventListener"
+  ],
+  "author": "Jon Bloomer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freaksauce/optimised-eventlistener/issues"
+  },
+  "homepage": "https://github.com/freaksauce/optimised-eventlistener#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
